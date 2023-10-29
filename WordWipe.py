@@ -67,7 +67,7 @@ e1 = Entry(root,font = ("Verdana",20),textvariable = ans,)
 e1.pack(ipady=5,ipadx=5) #created an input box
 #ipad=internal padding in x is called ipadx and y is called ipady
 Button(root,text = "Check",font = ("Comic sans ms",20),width = 10,bg="#333945",fg="#45CE30",relief = GROOVE,command = checkans,).pack(pady = 20) #created a submit button
-Button(root,text = "Reset",font = ("Comic sans ms",20),width = 10,bg="#777E8B",fg="#E1DA00",relief = GROOVE,command = reset).pack(pady=20) #created a reset button
+Button(root,text = "Back",font = ("Comic sans ms",20),width = 10,bg="#777E8B",fg="#E1DA00",relief = GROOVE,command = Baxk).pack(pady=20) #created a reset button
 
 Button(root,text = "Back",font = ("Comic sans ms",20),width = 10,bg="#fff",fg="#f1DA00",relief = GROOVE,command = welcome_window).pack() #created a reset button
 
